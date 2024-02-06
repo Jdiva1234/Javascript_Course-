@@ -8,16 +8,39 @@
 // alert(tweetLess);
 // let capital = tweet.toUpperCase();
 
-var name = prompt("What is your name?");
-var firstName = name.slice(0,1);
-var upperCase = firstName.toUpperCase();
-var restName = name.slice(1,name.length);
-var restLetter = restName.toLowerCase();
-restName = restLetter;
-var together = upperCase + restName;
-alert("Hello, " + together + " !");
+// var name = prompt("What is your name?");
+// var firstName = name.slice(0,1);
+// var upperCase = firstName.toUpperCase();
+// var restName = name.slice(1,name.length);
+// var restLetter = restName.toLowerCase();
+// restName = restLetter;
+// var together = upperCase + restName;
+// alert("Hello, " + together + " !");
  
+ function getMilk(money) {
+    console.log("leaveHouse");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("buy " + Math.floor(money/1.5) + " bottles of milk");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("enterHouse");
+    return money % 1.5;
+}
 
+getMilk(5);
 /** The different types of functions in JavaScripts are: 
     * 1. Function Declaration
     * 2. Function Expression
