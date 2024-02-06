@@ -12,6 +12,8 @@ var name = prompt("What is your name?");
 var firstName = name.slice(0,1);
 var upperCase = firstName.toUpperCase();
 var restName = name.slice(1,name.length);
+var restLetter = restName.toLowerCase();
+restName = restLetter;
 var together = upperCase + restName;
 alert("Hello, " + together + " !");
  
