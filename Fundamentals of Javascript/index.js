@@ -1,21 +1,21 @@
-// var name = prompt("What is your name?");
-// alert("Hello, " + name + "!");
+var name = prompt("What is your name?");
+alert("Hello, " + name + "!");
 
-// let tweet = prompt("Compose your tweet");
-// let yourCharacter = tweet.length;
-// alert("You have written " + yourCharacter + "characters,  you have " + (140- tweet.length) + "charcters left");
-// let tweetLess = tweet.slice(0,140);
-// alert(tweetLess);
-// let capital = tweet.toUpperCase();
+let tweet = prompt("Compose your tweet");
+let yourCharacter = tweet.length;
+alert("You have written " + yourCharacter + "characters,  you have " + (140- tweet.length) + "charcters left");
+let tweetLess = tweet.slice(0,140);
+alert(tweetLess);
+let capital = tweet.toUpperCase();
 
-// var name = prompt("What is your name?");
-// var firstName = name.slice(0,1);
-// var upperCase = firstName.toUpperCase();
-// var restName = name.slice(1,name.length);
-// var restLetter = restName.toLowerCase();
-// restName = restLetter;
-// var together = upperCase + restName;
-// alert("Hello, " + together + " !");
+var name = prompt("What is your name?");
+var firstName = name.slice(0,1);
+var upperCase = firstName.toUpperCase();
+var restName = name.slice(1,name.length);
+var restLetter = restName.toLowerCase();
+restName = restLetter;
+var together = upperCase + restName;
+alert("Hello, " + together + " !");
  
  function getMilk(money) {
     console.log("leaveHouse");
